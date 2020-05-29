@@ -25,7 +25,7 @@ sb.AppendLine("}");
 
 With just a few modifications you can also use it to generate state/region names and/or include additional information, such as currency, languages, or set the enum value directly to the respective ISO-3166-1 code for each country.
 
-If you are just interested in copy-pasting the default enum into your projects, [just copy it from here](https://github.com/cesarsouza/segn/blob/master/src/Countries.cs).
+If you just want to see an enum you can copy-paste into your projects, [just copy it from here](https://github.com/cesarsouza/segn/blob/master/src/Countries.cs).
 
 -----
 
