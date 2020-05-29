@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Enums.GeoNames", "src\System.Enums.GeoNames.csproj", "{C72A9DE7-8BDD-4E6E-9B90-40F66763E95E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C72A9DE7-8BDD-4E6E-9B90-40F66763E95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72A9DE7-8BDD-4E6E-9B90-40F66763E95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72A9DE7-8BDD-4E6E-9B90-40F66763E95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72A9DE7-8BDD-4E6E-9B90-40F66763E95E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {560C9448-586C-4CB5-B0C7-2C035EDD5A8B}
+	EndGlobalSection
+EndGlobal
