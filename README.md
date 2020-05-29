@@ -1,6 +1,6 @@
 <h1><b>S</b>ystem.<b>E</b>nums.<b>G</b>eo<b>N</b>ames (segn)</h1>
 
-This super small project can be used to generate strongly-typed enumerations for contry names and other information contained in the [GeoNames database](http://www.geonames.org/). You can use it to generate enum types to [copy and paste into your projects](https://github.com/cesarsouza/segn/blob/master/src/Countries.cs). To generate a custom enumeration, just download the source and customize which properties from [NGeoNames.CountryInfo](https://github.com/RobThree/NGeoNames/blob/master/NGeoNames/Entities/CountryInfo.cs) you want to use in [the main program](https://github.com/cesarsouza/segn/blob/d131525cc921deb06d01af06bcc84e519fb96111/src/Program.cs#L27-L36):
+This super small project can be used to generate strongly-typed enumerations for country names and other information contained in the [GeoNames database](http://www.geonames.org/). You can use it to generate enum types to [copy and paste into your projects](https://github.com/cesarsouza/segn/blob/master/src/Countries.cs). To generate a custom enumeration, just download the source and customize which properties from [NGeoNames.CountryInfo](https://github.com/RobThree/NGeoNames/blob/master/NGeoNames/Entities/CountryInfo.cs) you want to use in [the main program](https://github.com/cesarsouza/segn/blob/d131525cc921deb06d01af06bcc84e519fb96111/src/Program.cs#L27-L36):
 
 
 ```csharp
