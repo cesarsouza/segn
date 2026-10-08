@@ -1,11 +1,11 @@
-﻿using System;
+﻿using NGeoNames;
+using NGeoNames.Entities;
+using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
-
-using NGeoNames;
-using NGeoNames.Entities;
 
 namespace GeoNamesEnumGenerator
 {
@@ -26,8 +26,17 @@ namespace GeoNamesEnumGenerator
             sb.AppendLine("{");
             foreach (CountryInfo country in countries)
             {
-                sb.AppendLine(format(
-                    name: country.Country,
+				string nameTranslated = country.Country;
+				// translate the name of the country to the current locale (if possible)
+				try
+				{
+					var ri = new RegionInfo(country.ISO_Alpha2);
+					nameTranslated = ri.DisplayName;
+				}
+				catch { }
+
+				sb.AppendLine(format(
+                    name: nameTranslated,
                     groupName: country.Continent,
                     description: country.ISO_Numeric,
                     shortName: country.ISO_Alpha2,
